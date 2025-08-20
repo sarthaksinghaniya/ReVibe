@@ -1,5 +1,3 @@
-# ReVibe
-
 <div align="center">
 
 # ReVibe – E‑Waste Innovation Platform ♻️✨
