@@ -1,0 +1,74 @@
+# Node dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Build output
+build/
+dist/
+.out/
+.next/
+.nuxt/
+.svelte-kit/
+.astro/
+.cache/
+
+# Framework/platform deploy folders
+.vercel/
+.netlify/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Temporary files
+.tmp/
+tmp/
+temp/
+
+# TypeScript
+*.tsbuildinfo
+
+# Linters/formatters cache
+.eslintcache
+.prettier-cache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.code-workspace
+
+# Lockfiles (keep tracked) - do NOT ignore lockfiles
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Misc
+*.local
+*.swp
+*.swo
