@@ -1,0 +1,10 @@
+[build]
+  base = "E-waste/revibe"
+  command = "npm run build"
+  publish = "dist"
+
+# SPA fallback to support client-side routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
