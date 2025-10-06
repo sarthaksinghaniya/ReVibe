@@ -160,6 +160,36 @@ npm run dev
 # open the URL Vite prints (usually http://localhost:5173)
 ```
 
+## 🚦 Quickstart Checklist
+
+1. **Install dependencies:**
+   ```bash
+   cd E-waste/revibe
+   npm install
+   ```
+2. **Configure environment:**
+   - Copy `.env.example` to `.env` and set your variables.
+   - For location features, set:
+     ```
+     REACT_APP_GOOGLE_MAPS_API_KEY=your_actual_key_here
+     ```
+   - If the key is missing, location features will show a warning and be disabled.
+3. **Start the dev server:**
+   ```bash
+   npm run dev
+   ```
+   - Run this command from the `revibe` directory.
+   - Open the printed URL (usually http://localhost:5173).
+
+## 🐞 Troubleshooting
+
+- **Blank/White Screen:**
+  - Make sure you are running `npm run dev` from the `E-waste/revibe` folder.
+  - Check your browser console for error messages.
+  - If you see a warning about the Google Maps API key, set it in your `.env` file.
+  - The app now includes an error boundary and top-level error display to help debug fatal errors.
+  - If you see a red error message, share it for targeted help.
+
 ## 📜 NPM Scripts
 
 | Script               | Description                                              |
